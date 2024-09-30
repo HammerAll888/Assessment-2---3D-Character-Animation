@@ -19,15 +19,13 @@ public class CharacterMovement : MonoBehaviour
     private float? lastGroundedTime;
     private float? jumpButtonPressedTime;
 
-    // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
-        characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>(); //Will get the Animator component
+        characterController = GetComponent<CharacterController>(); //Will get the CharacterController component
         originalStepOffset = characterController.stepOffset;
     }
 
-    // Update is called once per frame
     void Update()
     {
         //Will move the player
