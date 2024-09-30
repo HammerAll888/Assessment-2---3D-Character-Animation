@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class KillzoneScript : MonoBehaviour
 {
+    [SerializeField] GameObject Player;
+
     public void OnTriggerEnter(Collider other)
     {
-        var ragdoller = other.gameObject.GetComponent<RagdollEffect>();
-        if(ragdoller != null)
+        if(other.tag == "Player")
         {
-            ragdoller.RagdollOn();
+            Player.GetComponent<Animator>().enabled = false;
         }
     }
 }

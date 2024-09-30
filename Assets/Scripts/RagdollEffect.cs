@@ -5,10 +5,20 @@ using UnityEngine;
 public class RagdollEffect : MonoBehaviour
 {
     private Animator animator;
+    bool isRagdoll = false;
 
     public void RagdollOn()
     {
-        animator.enabled = false;
+        if(isRagdoll == false)
+        {
+            animator.enabled = true;
+            isRagdoll = true;
+        }
+        else if(isRagdoll == true)
+        {
+            animator.enabled = false;
+            isRagdoll = false;
+        }
     }
 
     // Start is called before the first frame update

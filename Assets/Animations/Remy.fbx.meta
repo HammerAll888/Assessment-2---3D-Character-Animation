@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 0d5b2ef0f50a9894687f9e1aa9fe3e70
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -180,7 +180,6 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -208,7 +207,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -219,6 +217,9 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips:
   - 9757d0608fa2c5e4cb19af536f10d872
+  - 952eb0d56f18072459355d5ed3c000f4
+  - 153edde51fa85cb4fbbce52e8162ba14
+  - 6c79edcf82370d04c8d057157bcf6d9e
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -242,7 +243,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
